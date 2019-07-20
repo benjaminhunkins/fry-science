@@ -1,0 +1,22 @@
+{
+  "name": "fryscience",
+  "version": "0.1.0",
+  "description": "FryScience",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": {
+    "name": "Benjamin Hunkins"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "eslint": "^6.0.1"
+  }
+}
