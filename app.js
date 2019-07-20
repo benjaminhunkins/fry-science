@@ -3,10 +3,13 @@ const express = require("express"),
 
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
-};
+}
+
+app.set("view engine", "ejs");
+
 
 app.get("/", (req, res) => {
-  res.send("Hello from FryScience!");
+  res.render("landing");
 });
 
 let port = process.env.PORT;
