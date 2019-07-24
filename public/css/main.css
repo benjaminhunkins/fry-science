@@ -1,15 +1,13 @@
-body {
-  background-color: #232323;
-  background: #232323 url(/img/splash_date_logotype_2000x1333.jpg) center center fixed;
+html {
+  background: #232323 url(/img/splash_date_logotype_2000x1333.jpg) no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
-  body {
-    background-color: #232323;
-    background: #232323 url(/img/splash_window_logotype_800x1200.jpg) center center fixed;
+  html {
+    background: #232323 url(/img/splash_window_logotype_800x1200.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
+    height: 100%;
   }
 }
